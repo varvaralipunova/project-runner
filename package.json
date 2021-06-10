@@ -1,0 +1,28 @@
+{
+  "name": "project-runner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varvaralipunova/project-runner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "project-runner": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/varvaralipunova/project-runner/issues"
+  },
+  "homepage": "https://github.com/varvaralipunova/project-runner#readme",
+  "dependencies": {
+    "caporal": "^1.4.0",
+    "chokidar": "^3.5.1",
+    "lodash.debounce": "^4.0.8"
+  }
+}
